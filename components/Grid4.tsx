@@ -11,9 +11,6 @@ const Grid4 = () => {
         <p className="text-blue-900 text-sm">Comprar</p></div>
         <div className="bg-slate-200 rounded-xl m-4 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/ampolla.png')] min-w-96">Alumini
         <p className="text-blue-900 text-sm">Comprar</p></div>
-        <div className="bg-slate-200 rounded-xl m-4 h-96 flex p-6 flex-col text-lg min-w-96">Alumini
-        <p className="text-blue-900 text-sm">Comprar</p>
-        <img className="w-14 flex "src="/ampolla.png" alt="" /></div>
         
 </div>
   )
