@@ -10,8 +10,6 @@ const Nav = () => {
     <div className="flex items-center justify-between h-16">
       <img src="/hydrologo.png" alt="Hydratech" width={100} />
       <div className="flex space-x-4 text-gray-900 pl-3">
-        <a href="#">Dashboard</a>
-        <a href="#">Contact</a>
       </div>
     </div>
   </div>

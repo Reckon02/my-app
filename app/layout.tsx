@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head><link rel="icon" href="/next.svg" sizes="any" /></head>
+      <body className={inter.className}>{children}
+      <div className=" h-10 flex items-center justify-center p-10 ">
+        <h2 className="text-xl">Projecte 3r ESO mates ❤</h2>
+      </div>
+      </body>
     </html>
   );
 }
