@@ -37,7 +37,9 @@ export default function RootLayout({
         <div className="flex justify-between p-1.5 mx-5">
           <Nav />
           <Drawer>
-            <DrawerTrigger>Qui som?</DrawerTrigger>
+            <DrawerTrigger>
+              <Button variant={"outline"}>Qui som?</Button>
+            </DrawerTrigger>
             <DrawerContent>
               <DrawerHeader>
                 <DrawerTitle>
