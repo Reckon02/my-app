@@ -20,16 +20,16 @@ export default function Home() {
       <Separator className="my-4" />
       <div className="grid grid-cols-3 min-h-max mt-0">
         <h1 className="p-10 pb-5 self-center justify-self-center col-span-3 font-normal text-3xl">
-          Aquesta ampolla ho pot fer-ho tot!
+          Pantalla integrada
         </h1>
         <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-1.png')] min-w-96"></div>
-        <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-1.png')] min-w-96"></div>
-        <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-1.png')] min-w-96"></div>
+        <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-2.png')] min-w-96"></div>
+        <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-3.png')] min-w-96"></div>
       </div>
       <div className="h-screen bg-slate-500 p-10 pt-15">
         <div className="grid grid-cols-2 gap-4 h-full content-start">
           <div className="Image:">
-            <img src="/ampolla.png" width={660}></img>
+            <img src="ampolla.png" width={660}></img>
           </div>
           <div className="flex h-4/5 flex-col pt-20">
             <h1 className=" mb-5 text-5xl">Hydrabottle</h1>
