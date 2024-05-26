@@ -3,7 +3,7 @@ import Nav from "@/components/Nav";
 import Grid4 from "@/components/Grid4";
 import { Button } from "@/components/ui/button";
 import Buy from "@/components/Buy";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 import { Nfc } from "lucide-react";
 
