@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/Nav"
+
+import { Button } from "@/components/ui/button"
+
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +31,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head><link rel="icon" href="/next.svg" sizes="any" /></head>
-      <body className={inter.className}>{children}
-      <div className=" h-10 flex items-center justify-center p-10 ">
-        <h2 className="text-xl">Projecte 3r ESO mates ❤</h2>
-      </div>
+      <body className={inter.className}>
+      <div className="flex justify-between p-1.5 mx-5">
+        
+        <Nav /> 
+        <Drawer>
+          <DrawerTrigger>Qui som?</DrawerTrigger>
+          <DrawerContent>
+            <DrawerHeader>
+              <DrawerTitle>Aquest es un projecte de mates de 3r ESO</DrawerTitle>
+              <DrawerDescription>
+                <p><b>Desenvolupament de la web: </b>Simón Rapanelli</p>
+                <p><b>Disseny Web:</b> Lucas Pizarro, Luis Naranjo</p>
+                <p><b>Disseny logo i marketing:</b> Dusan Martin</p>
+                <p><b>Excel: </b>Simón Rapanelli, Dusan Martin, Adrian Rull</p>
+              </DrawerDescription>
+            </DrawerHeader>
+            <DrawerFooter>
+              <DrawerClose>
+                <Button>Entesos</Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+        </div>
+      {children}
       </body>
     </html>
   );
