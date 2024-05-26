@@ -14,7 +14,12 @@ export default function Home() {
         <h1 className="text-5xl pb-10 pt-5 font-bold text-white">
           Hydrabottle
         </h1>
-        <img src="ampolla.png" width={500} height={300} alt="Ampolla" />
+        <img
+          src="https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg"
+          width={500}
+          height={300}
+          alt="Ampolla"
+        />
       </div>
       <Grid4 />
       <Separator className="my-4" />
@@ -29,7 +34,10 @@ export default function Home() {
       <div className="h-screen bg-slate-500 p-10 pt-15">
         <div className="grid grid-cols-2 gap-4 h-full content-start">
           <div className="Image:">
-            <img src="ampolla.png" width={660}></img>
+            <img
+              src="https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg"
+              width={660}
+            ></img>
           </div>
           <div className="flex h-4/5 flex-col pt-20">
             <h1 className=" mb-5 text-5xl">Hydrabottle</h1>
