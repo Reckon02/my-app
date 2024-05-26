@@ -10,12 +10,13 @@ import { Nfc } from "lucide-react";
 export default function Home() {
   return (
     <main className="">
-      <div className="h-screen flex flex-col items-center p-5 bg-[url('../public/retro.webp')] bg-contain">
-        <h1 className="text-5xl pb-10 pt-5 font-bold text-white">
-          Hydrabottle
-        </h1>
+      <div className="h-screen flex flex-col items-center p-5 bg-[url('../public/retro.webp')] bg-cover">
+        <h1 className="text-5xl pb-5 pt-5 font-bold text-white">Hydrabottle</h1>
+        <h2 className="text-3xl p-5 text-white font-semibold">
+          "La hidratació és una prioritat"
+        </h2>
         <img
-          src="https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg"
+          src="https://cdn.discordapp.com/attachments/1244300670761173002/1244319766571913287/lafunkinbotellatransparente.png?ex=6654ae96&is=66535d16&hm=55406e200ac116a6e54b372df1bdd3374d396dc6d6dd23d9db4610699fdde0fd&"
           width={500}
           height={300}
           alt="Ampolla"
@@ -31,29 +32,30 @@ export default function Home() {
         <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-2.png')] min-w-96"></div>
         <div className="m-10 mt-0 h-96 flex p-6 flex-col text-lg bg-cover bg-[url('../public/Frame-3.png')] min-w-96"></div>
       </div>
-      <div className="h-screen bg-slate-500 p-10 pt-15">
+      <div className="h-screen bg-slate-200 p-10 pt-15">
         <div className="grid grid-cols-2 gap-4 h-full content-start">
           <div className="Image:">
             <img
-              src="https://hips.hearstapps.com/hmg-prod/images/dw-burnett-pcoty22-8260-1671143390.jpg"
+              src="https://cdn.discordapp.com/attachments/1244300670761173002/1244319766571913287/lafunkinbotellatransparente.png?ex=6654ae96&is=66535d16&hm=55406e200ac116a6e54b372df1bdd3374d396dc6d6dd23d9db4610699fdde0fd&"
               width={660}
             ></img>
           </div>
           <div className="flex h-4/5 flex-col pt-20">
-            <h1 className=" mb-5 text-5xl">Hydrabottle</h1>
-            <p className=" pb-5 grid-rows-subgrid row-span-2 ">
-              Si aquesta ampolla no es per tu llavors no es per ningu Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-              voluptatem optio illum sapiente sit doloribus blanditiis laborum
-              repellendus consequatur similique! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Sequi eligendi fugit earum sed odit
-              itaque provident alias, ipsa deserunt facilis assumenda quasi,
-              officiis sapiente suscipit nesciunt? Qui, mollitia recusandae
-              voluptate quidem maiores voluptates laborum possimus saepe atque,
-              quibusdam repellendus reiciendis eum natus impedit nobis dolore ad
-              labore. Magni, incidunt nemo?
+            <h1 className=" mb-5 text-5xl font-semibold">Hydrabottle</h1>
+            <p className=" pb-5 grid-rows-subgrid row-span-2 mr-36 ">
+              Aquesta és l'ampolla que d'una vegada acabés amb la deshidratació.
+              T'avisarà per prendre, recarregar-la i s'adaptarà als teus hàbits
+              d'hidratar-te. Pots beure'n el que vulguis. Per rentar-la és tan
+              simple com una ampolla normal, mai t'hauràs de preocupar de
+              trencar-la. Oblideu-vos de carregar-la sempre, amb carregar-ho una
+              hora tindràs dues setmanes d'ús.
             </p>
-            <div className="flex flex-row ">
+            <li>Un més de bateria</li>
+            <li>Durabilitat de grau militar</li>
+            <li>Garantia per dos anys</li>
+            <h2 className="py-5 text-3xl">75,99€</h2>
+
+            <div className="flex flex-row">
               <div className="">
                 <Buy />
               </div>
