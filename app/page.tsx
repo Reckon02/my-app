@@ -43,12 +43,13 @@ export default function Home() {
           <div className="flex h-4/5 flex-col pt-20">
             <h1 className=" mb-5 text-5xl font-semibold">Hydrabottle</h1>
             <p className=" pb-5 grid-rows-subgrid row-span-2 mr-36 ">
-              Aquesta és l'ampolla que d'una vegada acabés amb la deshidratació.
-              T'avisarà per prendre, recarregar-la i s'adaptarà als teus hàbits
-              d'hidratar-te. Pots beure'n el que vulguis. Per rentar-la és tan
-              simple com una ampolla normal, mai t'hauràs de preocupar de
-              trencar-la. Oblideu-vos de carregar-la sempre, amb carregar-ho una
-              hora tindràs dues setmanes d'ús.
+              Aquesta és l&apos;ampolla que d&apos;una vegada acabés amb la
+              deshidratació. T&apos;avisarà per prendre, recarregar-la i
+              s&apos;adaptarà als teus hàbits d&apos;hidratar-te. Pots
+              beure&apos;n el que vulguis. Per rentar-la és tan simple com una
+              ampolla normal, mai t&apos;hauràs de preocupar de trencar-la.
+              Oblideu-vos de carregar-la sempre, amb carregar-ho una hora
+              tindràs dues setmanes d&apos;ús.
             </p>
             <li>Un més de bateria</li>
             <li>Durabilitat de grau militar</li>
