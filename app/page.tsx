@@ -13,7 +13,7 @@ export default function Home() {
       <div className="h-screen flex flex-col items-center p-5 bg-[url('../public/retro.webp')] bg-cover">
         <h1 className="text-5xl pb-5 pt-5 font-bold text-white">Hydrabottle</h1>
         <h2 className="text-3xl p-5 text-white font-semibold">
-          "La hidratació és una prioritat"
+          &quot;La hidratació és una prioritat&quot;
         </h2>
         <img
           src="https://cdn.discordapp.com/attachments/1244300670761173002/1244319766571913287/lafunkinbotellatransparente.png?ex=6654ae96&is=66535d16&hm=55406e200ac116a6e54b372df1bdd3374d396dc6d6dd23d9db4610699fdde0fd&"
