@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="flex items-center justify-between h-16">
           <a href="/my-app">
             <img
-              src="https://cdn.discordapp.com/attachments/1244300670761173002/1244300750373388439/Component_2_1.png?ex=66549ce0&is=66534b60&hm=748c5e0b435a6d251cb2c94f518b57210ad2556db4a4e57ef38e920b12b5a148&"
+              src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/hydrologo.png"
               alt="Hydratech"
               width={100}
             />

@@ -40,6 +40,7 @@ const Buy = () => {
                 </p>
                 <p className="font-semibold text-xl">75,99€</p>
                 <div className="flex mt-2">Total: 75,99€</div>
+                <Button className="my-3">Comprar</Button>
               </div>
             </div>
           </SheetHeader>

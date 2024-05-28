@@ -57,7 +57,7 @@ export default function Dashboard() {
       </div>
       <div className="hidden bg-muted lg:block">
         <img
-          src="https://media.discordapp.net/attachments/1244300670761173002/1244303501752930384/Eclipse-_1_.webp?ex=66549f70&is=66534df0&hm=48f5d9390dde4056419d7f15fab18403213465b92642b601d0a7f50fc46ff990&=&format=webp&width=1083&height=610"
+          src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/Eclipse-_1_.webp"
           alt="Image"
           width="1920"
           height="1080"

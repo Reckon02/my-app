@@ -19,7 +19,7 @@ export default function Home() {
           &quot;La hidratació és una prioritat&quot;
         </h2>
         <img
-          src="https://cdn.discordapp.com/attachments/1244300670761173002/1244319766571913287/lafunkinbotellatransparente.png?ex=6654ae96&is=66535d16&hm=55406e200ac116a6e54b372df1bdd3374d396dc6d6dd23d9db4610699fdde0fd&"
+          src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/lafunkinbotellatransparente.png"
           width={500}
           height={300}
           alt="Ampolla"
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src="https://cdn.discordapp.com/attachments/1244300670761173002/1244404065425690794/untitled.png?ex=6654fd19&is=6653ab99&hm=cb18fc613937ee010c9a639ee4f67c7ceea1389878651c69c027db7dca2d24bc&"
+            src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/untitled.png"
             width={478}
           ></img>
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4 h-full content-start">
           <div className="Image:">
             <img
-              src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/Frame-1.png"
+              src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/lafunkinbotellatransparente.png"
               width={660}
               alt="Ampolla"
             ></img>
