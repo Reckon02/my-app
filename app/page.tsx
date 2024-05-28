@@ -88,8 +88,9 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-4 h-full content-start">
           <div className="Image:">
             <img
-              src="https://cdn.discordapp.com/attachments/1244300670761173002/1244319766571913287/lafunkinbotellatransparente.png?ex=6654ae96&is=66535d16&hm=55406e200ac116a6e54b372df1bdd3374d396dc6d6dd23d9db4610699fdde0fd&"
+              src="https://raw.githubusercontent.com/Reckon02/my-app/master/public/Frame-1.png"
               width={660}
+              alt="Ampolla"
             ></img>
           </div>
           <div className="flex h-4/5 flex-col pt-20">
