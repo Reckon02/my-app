@@ -31,7 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/next.svg" sizes="any" />
+        <link
+          rel="icon"
+          href="https://raw.githubusercontent.com/Reckon02/my-app/29b1e68c186ca61aeb93298d560c8148531d42cf/public/next.svg"
+          sizes="any"
+        />
       </head>
       <body className={inter.className}>
         <div className="flex justify-between p-1.5 mx-5">
